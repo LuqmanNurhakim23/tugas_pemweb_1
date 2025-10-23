@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>praktek html form</h1>
+    </header>
+    <main>
+        <section>
+            <form action="" method="">
+                <fieldset>
+                    <legend>identitas</legend>
+                    <div class="grid">
+                        <div class="row">
+                            <label for="">nama lengkap</label>
+                            <input type="text" placeholder="isi nama" required="">
+                        </div>
+                        <div class="row">
+                            <label for="">tanggal lahir</label>
+                            <input type="date" required="">
+                        </div>
+                        <div class="row">
+                            <label for="">foto profil</label>
+                            <input type="file" placeholder="" required="">
+                        </div>
+                        <div class="row">
+                            <label for="">nim</label>
+                            <input type="number" maxlength="10" required="">
+                        </div>
+                        <div class="row">
+                            <label for="">disabled</label>
+                            <input type="text" maxlength="10" value="gak kekirim" disabled="" >
+                        </div>
+                        <div class="row">
+                            <label for="">readonly</label>
+                            <input type="text" maxlength="10" value="baca aja" readonly="">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>preferensi</legend>
+                    <div class="grid">
+                        <div class="row">
+                            <label for="">jurusan</label>
+                            <select name="" id="">
+                                <option value="">TI</option>
+                                <option value="">SI</option>
+                                <option value="">BD</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <label for="">jenjang</label>
+                            <div>
+                                <label for="">
+                                    <input type="radio" name="jenjang"> d3 <br>
+                                    <input type="radio"name="jenjang"> d4 <br>
+                                    <input type="radio" name="jenjang"> s1 <br>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="">minat</label>
+                            <div>
+                                <label for="">
+                                    <input type="checkbox">web <br>
+                                </label>
+                                <label for="">
+                                    <input type="checkbox">mobile <br>
+                                </label>
+                                <label for="">
+                                    <input type="checkbox">AI
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="">warna favorit</label>
+                            <input type="color" value="#2196f3">
+                        </div>
+                        <div class="row">
+                            <label for="">level skill</label>
+                            <input type="range" minlength="0" maxlength="10" value="5">
+                        </div>
+                        <div class="row">
+                            <label for="">readonly</label>
+                            <input type="text" maxlength="10" value="baca aja" readonly="">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
